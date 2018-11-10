@@ -1,0 +1,13 @@
+version: '3'
+services: 
+  web:
+    build: 
+      ./ops
+    image: 
+      node/express
+    volumes: 
+      - ./src/:/usr/local/src/
+    ports: 
+      - 8080:80
+    command: 
+      node /usr/local/src/index.js

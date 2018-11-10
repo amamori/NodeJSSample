@@ -2,7 +2,7 @@
 
 ## 前提条件
 
-<b>`docker-compose.yml`</b>ファイルがある位置まで以下のコマンドで移動すること    
+<b>`docker-compose.yml`</b>ファイルがある位置まで以下のコマンドで移動すること    
 
 `$ cd ./NodeJs`
 
